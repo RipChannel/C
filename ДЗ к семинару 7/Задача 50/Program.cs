@@ -39,7 +39,7 @@ void Num(int[,] Arr, int m, int n)
 {
     int row = 0;
     int col = 0;
-    if(m < 4 && n < 5)
+    if(m < 4 && n < 5 && m > 0 && n > 0)
     {
     row = m - 1;
     col = n - 1;
