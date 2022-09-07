@@ -2,7 +2,8 @@
 
 Console.WriteLine("Введите положительное число");
 int n = Convert.ToInt32(Console.ReadLine());
-NaturalNumber(n);
+if(n > 0) NaturalNumber(n);
+else Console.WriteLine("Неккоректные данные");
 
 void NaturalNumber(int num)
 {
